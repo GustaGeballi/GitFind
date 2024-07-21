@@ -1,0 +1,89 @@
+.conteudo{
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.background{
+  position: fixed;
+  height: 80vh;
+  left: 0;
+}
+
+.info{
+  width: 65%;
+  margin-right: 90px;
+  margin-top: 40px;
+  color: white;
+  font-size: 24px;
+}
+
+input{
+  border-radius:20px;
+  border: 1px solid #E5E5E5;
+  min-width: 250px;
+  width: 80%;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  color: #999;
+}
+
+button{
+  border-radius:20px;
+  border: 1px solid #E5E5E5;
+  background-color: #2D333B;
+  font-size: 18px;
+  padding: 10px 40px 10px 40px;
+  
+  color: #999;
+}
+
+button:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.busca{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile{
+  font-family: sans-serif;
+  margin: 40px 0 40px 0;
+  display: flex;
+  color: #999;
+}
+
+.profile h4{
+  font-size: 24px;
+  margin: 0;
+}
+.profile p{
+  margin: 0;
+  font-size: 14px;
+}
+
+.profile span{
+  margin: 0;
+  margin-top: 40px;
+  font-size: 16px;
+  display: block;
+}
+
+.profile_img{
+  width: 120px;
+  height: 120px;
+  border-radius: 400px;
+  border: 3px solid #E5E5E5;
+  margin-right: 30px;
+}
+
+.repositories{
+  color: #fff;
+  font-size: 32px;
+  margin: 30px 0;
+  text-align: center;
+}
